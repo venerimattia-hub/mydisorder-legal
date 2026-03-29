@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyDisorder</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: #1d1d1f;
+            background: #f5f5f7;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 520px;
+            margin: 0 auto;
+            padding: 40px 24px;
+            text-align: center;
+        }
+        .icon {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            border-radius: 22px;
+            margin: 0 auto 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            box-shadow: 0 8px 24px rgba(99, 102, 241, 0.3);
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #86868b;
+            font-size: 17px;
+            margin-bottom: 32px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 16px;
+            padding: 32px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+            margin-bottom: 24px;
+        }
+        .card p {
+            font-size: 15px;
+            color: #424245;
+            margin-bottom: 16px;
+        }
+        .card p:last-child { margin-bottom: 0; }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 24px;
+        }
+        .links a {
+            display: block;
+            padding: 14px 24px;
+            background: #f5f5f7;
+            border-radius: 12px;
+            color: #0071e3;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        .links a:hover { background: #e8e8ed; }
+        .badge {
+            display: inline-block;
+            margin-top: 24px;
+        }
+        .badge img {
+            height: 44px;
+        }
+        footer {
+            color: #86868b;
+            font-size: 13px;
+            margin-top: 32px;
+        }
+        footer a { color: #86868b; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="icon">&#x1F9E0;</div>
+
+    <h1>MyDisorder</h1>
+    <p class="subtitle">Il tuo compagno per il monitoraggio del disturbo bipolare</p>
+
+    <div class="card">
+        <p>MyDisorder ti aiuta a registrare umore, sonno, farmaci e altri parametri ogni giorno. Analizza le tue tendenze, scopri correlazioni e condividi report con il tuo terapeuta.</p>
+        <p>Disponibile su App Store per iPhone e iPad.</p>
+
+        <div class="links">
+            <a href="privacy.html">Informativa sulla Privacy / Privacy Policy</a>
+            <a href="terms.html">Termini di Servizio / Terms of Service</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Mattia Veneri</p>
+        <p><a href="mailto:venerimattia@gmail.com">venerimattia@gmail.com</a></p>
+    </footer>
+
+</div>
+
+</body>
+</html>
